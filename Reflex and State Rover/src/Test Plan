@@ -1,0 +1,11 @@
+Test Plan
+
+Reflex Rover test plan:
+-the goal of the test plan was to make sure all expected values between 0-25 
+were accepted and output proper actions
+- numbers outside the range returned NOOP
+-data1.txt has proper values as percepts to test expected behavior (succesful)
+
+State Rover test plan:
+-Make sure a proper map was created based on the input file
+-Make sure the agent traversed the map properly (fail)

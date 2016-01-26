@@ -1,0 +1,34 @@
+PROGRAM TestProgram1 IS
+
+    INSTRUCTION InstrA IS
+        WHILE next-is-not-empty DO
+            turnleft
+        END WHILE
+    END InstrA
+
+    INSTRUCTION InstrB IS
+        move
+        skip
+        InstrA
+    END InstrB
+
+BEGIN
+    WHILE true DO
+        IF next-is-enemy THEN
+            InstrA
+            IF next-is-not-friend THEN
+            END IF
+        ELSE
+            IF next-is-wall THEN
+                WHILE next-is-friend DO
+                    InstrA
+                    turnright
+                    move
+                    infect
+                    skip
+                END WHILE
+                InstrA
+            END IF
+        END IF
+    END WHILE
+END TestProgram1

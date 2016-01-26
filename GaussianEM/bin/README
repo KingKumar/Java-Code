@@ -1,0 +1,16 @@
+README
+
+to compile the java files please use following command on command line:
+
+javac Gaussmix.java
+javac GMModel.java
+javac TextFileInput.java
+
+this will create class executables
+
+to execute please use following commands:
+
+java Gaussmix <# of clusters> <input text file> <output text file>
+
+    *without the "<" and ">"
+    please make sure input and output files are in the same directory as class files

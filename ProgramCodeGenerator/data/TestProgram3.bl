@@ -1,0 +1,25 @@
+PROGRAM TestProgram3 IS
+
+    INSTRUCTION InstrA IS
+        WHILE next-is-empty DO
+            InstrA
+        END WHILE
+    END InstrA
+
+BEGIN
+    WHILE next-is-friend DO
+        IF next-is-not-enemy THEN
+            IF random THEN
+                InstrA
+                turnright
+                turnleft
+                infect
+                skip
+            END IF
+            infect
+        ELSE
+            IF next-is-not-wall THEN
+            END IF
+        END IF
+    END WHILE
+END TestProgram3

@@ -1,0 +1,14 @@
+WHILE true DO
+  move
+  IF this-is-not-a-valid-condition THEN
+  END IF
+  IF random THEN
+    turnleft
+    infect
+  ELSE
+    go-for-it
+    turnright
+    look-for-something
+  END IF
+  skip
+END WHILE

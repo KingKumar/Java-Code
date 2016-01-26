@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feeds title="Top Stories">
+  <feed url="http://feeds.abcnews.com/abcnews/topstories" name="ABC News: Top Stories"
+    file="abc.html" />
+  <feed url="http://www.cbsnews.com/feeds/rss/main.rss" name="Breaking News: CBS News"
+    file="cbs.html" />
+  <feed url="http://rss.cnn.com/rss/cnn_topstories.rss" name="CNN.com - Top Stories"
+    file="cnn.html" />
+  <feed url="http://feeds.foxnews.com/foxnews/latest" name="FOXNews.com"
+    file="fox.html" />
+  <feed url="http://rss.msnbc.msn.com/id/3032091/device/rss/rss.xml"
+    name="NBCNews.com: Top NBCNews headlines" file="nbc.html" />
+</feeds>

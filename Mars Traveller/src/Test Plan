@@ -1,0 +1,8 @@
+Test Plan
+
+General test plan:
+-the goal of the test plan was to make sure all expected values between A-Z 
+were accepted as Node names
+-the program is able to create an adjacency list for 26 nodes in this regard
+-the program returns unexpected values or has a runtime error for input 
+files not in the specified format

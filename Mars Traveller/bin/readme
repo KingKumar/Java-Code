@@ -1,0 +1,24 @@
+README
+
+to compile the java files please use following command on command line:
+
+javac DfsMarsTraveller.java
+javac BfsMarsTraveller.java
+javac UcMarsTraveller.java
+javac AstarMarsTraveller.java
+
+this will create class executables
+
+to execute please use following commands:
+
+java DfsMarsTraveller -s <Node> <input text file>
+java BfsMarsTraveller -s <Node> <input text file>
+java UcMarsTraveller -s <Node> <input text file>
+java AstarMarsTraveller -s <Node> <input text file>
+
+    *without the "<" and ">"
+    *<Node> is the start Node A-Z
+    *text file name terminating with .txt suffix
+    please make sure input files are in the same directory as class files
+    
+ 

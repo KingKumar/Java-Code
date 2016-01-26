@@ -1,0 +1,8 @@
+Test Plan
+
+General test plan:
+-the Driver.java class was made specifically to show method of Test Driven Development
+-Lines 46-146 show my process to testing and correctly implementing the test plan
+-Please refer to class files to see commenting log outputs I used to determine 
+proper program flow
+-Both algorithms find the correct answers for all 3 of my test files

@@ -1,0 +1,30 @@
+PROGRAM TestProgram4 IS
+
+    INSTRUCTION InstrA IS
+        WHILE next-is-empty DO
+            InstrB
+        END WHILE
+    END InstrA
+
+    INSTRUCTION InstrB IS
+        move
+        skip
+        InstrA
+    END InstrB
+
+BEGIN
+    WHILE next-is-friend DO
+        IF next-is-not-enemy THEN
+            IF random THEN
+                InstrA
+                turnright
+                infect
+                skip
+            END IF
+            infect
+        ELSE
+            IF next-is-not-wall THEN
+            END IF
+        END IF
+    END WHILE
+END TestProgram4

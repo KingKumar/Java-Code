@@ -1,0 +1,16 @@
+README
+
+to compile the java files please use following command on command line:
+
+javac ReflexRover.java
+javac StateRover.java
+
+this will create ReflexRover.class and StateRover.class executables
+
+to execute please use following commands:
+
+java ReflexRover <input text file>
+java StateRover <input text file>
+
+    *without the "<" and ">" and text file name terminating with .txt suffix
+    please make sure input files are in the same directory as class files

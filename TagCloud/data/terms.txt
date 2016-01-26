@@ -1,0 +1,22 @@
+meaning
+something that one wishes to convey, especially by language
+
+term
+a word whose definition is in a glossary
+
+word
+a string of characters in a language, which has at least one character
+
+definition
+a sequence of words that gives meaning to a term
+
+glossary
+a list of difficult or specialized terms, with their definitions,
+usually near the end of a book
+
+language
+a set of strings of characters, each of which has meaning
+
+book
+a printed or written literary work
+

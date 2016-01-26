@@ -1,0 +1,33 @@
+README
+
+to compile the java files please use following command on command line:
+
+javac Driver.java
+javac GeneticAlgorithm.java
+javac HillClimbing.java
+javac Population.java
+javac Solver.java
+javac Sudoku.java
+
+this will create class executables
+
+to execute please use following commands:
+
+java Driver <input text file>
+
+    *without the "<" and ">"
+    *text file name terminating with .txt suffix
+    please make sure input files are in the same directory as class files
+    
+ The Driver class handles execution of both Hill Climbing and Genetic Algorithms
+ 
+ Please refer to Driver.java to see test driven implementations for Sudoku class
+ and running of Hill Climbing and Genetic Algorithm 
+        // Testing printCurrentState...
+        // Testing printInitialState...
+        // Testing getCurrentState...
+        // Testing getInitialState...
+        // Testing setCurrentState...
+        // Testing verify...
+        // Testing HillClimbing...
+        // Testing Genetic Algorithm...
